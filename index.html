@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>GRAVAÇÃOWGDSONLINE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Relógio -->
+    <div id="relogio"></div>
+
+    <!-- Título e Boas-Vindas -->
+    <h1>GRAVAÇÃOWGDSONLINE</h1>
+    <h2 id="boasVindas">👋 Seja bem-vindo ao GRAVAÇÃOWGDSONLINE!</h2>
+
+    <!-- Botões -->
+    <div class="botoes">
+        <button id="startCapture">Iniciar Captura</button>
+        <button id="startRecording" disabled>Iniciar Gravação</button>
+        <button id="stopRecording" disabled>Parar Gravação</button>
+    </div>
+
+    <!-- Vídeo de Pré-Visualização -->
+    <video id="preview" autoplay playsinline muted></video>
+
+    <!-- Aviso sobre áudio -->
+    <div id="audioWarning" class="aviso">
+        ⚠️ Para o áudio do jogo funcionar corretamente, clique na tela capturada e ative o modo de tela cheia.
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
